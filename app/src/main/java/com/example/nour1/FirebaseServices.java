@@ -1,5 +1,8 @@
 package com.example.nour1;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class FirebaseServices {
     private static FirebaseServices instance;
     private FirebaseAuth auth;
