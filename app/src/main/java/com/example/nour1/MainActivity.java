@@ -1,25 +1,33 @@
 package com.example.nour1;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 
 public class MainActivity extends AppCompatActivity {
 
 
     private EditText et_User_name, et_Password;
-    private FirebaseAuth auth;
-
+    private FirebaseServices fbs;
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
 
         et_User_name = findViewById(R.id.etUsername);
         et_Password = findViewById(R.id.etPassword);
-        auth = FirebaseAuth.getInstance();
+        fbs = fbs.getInstance();
     }
 
     public void login(View view) {
@@ -35,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // TODO: 3- Check username and password with Firebase Authentication
-        auth.signInWithEmailAndPassword(username, password)
+        fbs.getAuth().signInWithEmailAndPassword(username, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -44,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
 
 
-                            Toast.makeText(Login.this, "Username or password is empty!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Username or password is empty!", Toast.LENGTH_SHORT).show();
                             return;
                         }
                     }
