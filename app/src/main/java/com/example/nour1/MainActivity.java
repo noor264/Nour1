@@ -3,6 +3,7 @@ package com.example.nour1;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText et_User_name, et_Password;
     private FirebaseServices fbs;
     MediaPlayer mp;
+    private Utilities utils;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         et_User_name = findViewById(R.id.etUsername);
         et_Password = findViewById(R.id.etPassword);
         fbs = fbs.getInstance();
+        utils = Utilities.getInstance();
+
     }
 
     public void login(View view) {
@@ -58,4 +63,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
     }
+
+    public void signup(View view) {
+        // TODO: move to signup page
+        Intent i = new Intent(this, Signup.class);
+        startActivity(i);
+    }
+
 }
