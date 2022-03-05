@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseServices fbs;
     private Utilities utils;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         et_Password = findViewById(R.id.etPassword);
         fbs = fbs.getInstance();
         utils = Utilities.getInstance();
+
 
     }
 
