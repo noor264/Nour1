@@ -1,14 +1,13 @@
 package com.example.nour1;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -19,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText et_User_name, et_Password;
     private FirebaseServices fbs;
-    MediaPlayer mp;
     private Utilities utils;
 
 
@@ -54,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // TODO: commands if successful
+                            moveToPiano();
                         } else {
 
 
@@ -62,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
+    }
+
+    private void moveToPiano() {
+        Intent i = new Intent(this, Playpiano.class);
+        startActivity(i);
     }
 
     public void signup(View view) {
