@@ -4,34 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/drawable/black_btn.xml" value="0.3828125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/drawable/pianokeys1_background.xml" value="0.3828125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/drawable/pianokeys_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/drawable/w_btn.xml" value="0.3828125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/layout-land/activity_playpiano.xml" value="0.3916083916083916" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/layout/activity_playpiano.xml" value="0.22" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/layout/activity_signup.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Nour1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
         <entry key="..\:/Users/userx/AndroidStudioProjects/Nour1/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/userx/AndroidStudioProjects/Nour1/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/drawable/do_btn.xml" value="0.2775" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/drawable/do_w.xml" value="0.267" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/drawable/pianokeys1_background.xml" value="0.15885416666666666" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/layout-land/activity_playpiano.xml" value="0.11188811188811189" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/layout/activity_main.xml" value="0.15896739130434784" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/layout/activity_playpiano.xml" value="0.14270833333333333" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/layout/activity_signup.xml" value="0.14270833333333333" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2890625" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2890625" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/piano.xml" value="0.2890625" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/pianokeys.xml" value="0.2890625" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/pianokeys1.xml" value="0.2890625" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/pianokeys1_round.xml" value="0.2890625" />
-        <entry key="..\:/noor/School/project androind/ noor1/app/src/main/res/mipmap-anydpi-v26/pianokeys_round.xml" value="0.2890625" />
         <entry key="..\:/noor/School/project androind/Nour1/app/src/main/res/layout/activity_signup.xml" value="0.192481884057971" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

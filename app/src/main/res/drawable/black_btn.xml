@@ -5,5 +5,4 @@
     <size android:height="700dp"
         android:width="200dp"></size>
     <corners android:radius="@dimen/activity_horizontal_margin"></corners>
-
 </shape>
