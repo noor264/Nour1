@@ -5,5 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
-    tools:context=".Playpiano" />
+    tools:context=".Playpiano">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="188dp"
+        android:layout_height="320dp"
+        app:srcCompat="@drawable/w_btn"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="93dp" />
