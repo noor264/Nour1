@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nour1">
         <activity
+            android:name=".TestCanvasActivity"
+            android:exported="true" />
+        <activity
             android:name=".Playpiano"
             android:exported="true" />
         <activity

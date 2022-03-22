@@ -1,13 +1,14 @@
 
+
 <?xml version="1.0" encoding="utf-8"?>
 
-    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dobtn">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/wbtn">
         <item
             android:top="120dp"
             android:right="21dp"
            >
         <shape>
-            <solid android:color="@color/white" />
+            <solid android:color="@color/teal_200" />
             <size
                 android:width="100dp"
                 android:height="100dp" />
@@ -17,8 +18,9 @@
     <item
         android:right="42dp">
         <shape >
-            <solid android:color="@color/white" />
+            <solid android:color="@color/teal_200" />
         </shape>
+        <
     </item>
 
 </layer-list>
