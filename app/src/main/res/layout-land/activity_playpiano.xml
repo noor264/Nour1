@@ -82,21 +82,172 @@
         app:layout_constraintStart_toStartOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="135dp"
-        android:layout_height="323dp"
-        app:srcCompat="@drawable/v_btn"
-        tools:layout_editor_absoluteX="535dp"
-        tools:layout_editor_absoluteY="68dp" />
+    <!-- <Button-->
+<!--    android:id="@+id/c"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="63dp"-->
+<!--    android:text="   C"-->
+<!--    android:textSize="30sp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:textAlignment="textStart"-->
+<!--    android:backgroundTint="@color/white"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    android:onClick="playC" />-->
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/black_btn"
-        tools:layout_editor_absoluteX="545dp"
-        tools:layout_editor_absoluteY="116dp" />
+<!--    <Button-->
+<!--        android:id="@+id/d"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:text="   D"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/c"-->
+<!--        android:onClick="playD"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/e"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:text="   E"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/d"-->
+<!--        android:onClick="playE"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/f"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:text="   F"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/e"-->
+<!--        android:onClick="playF"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/g"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="   G"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textAlignment="textStart"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/f"-->
+<!--        android:onClick="playG"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/a"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:text="   A"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/g"-->
+<!--        android:onClick="playA"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/b"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="63dp"-->
+<!--        android:text="   B"-->
+<!--        android:textSize="30sp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:shadowColor="@color/black"-->
+<!--        android:textAlignment="textStart"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/a"-->
+<!--        android:onClick="playB"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/cs"-->
+<!--        android:layout_width="187dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="40sp"-->
+<!--        android:text="   C#"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#ffffff"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:onClick="playCS"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/ds"-->
+<!--        android:layout_width="187dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="   D#"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:textColor="#ffffff"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/cs"-->
+<!--        android:onClick="playDS"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/fs"-->
+<!--        android:layout_width="187dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:text="   F#"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:textColor="#ffffff"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ds"-->
+<!--        android:onClick="playFS"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/gs"-->
+<!--        android:layout_width="187dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:text="   G#"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:textColor="#ffffff"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/fs"-->
+<!--        android:onClick="playGS"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/as"-->
+<!--        android:layout_width="187dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="   A#"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:textColor="#ffffff"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/gs"-->
+<!--        android:onClick="playAS"/>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
