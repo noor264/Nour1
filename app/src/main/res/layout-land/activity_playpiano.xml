@@ -7,247 +7,211 @@
     android:layout_height="match_parent"
     tools:context=".Playpiano">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="20dp"
-        android:onClick="playa"
-        android:text="a"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:onClick="playd"
-        android:text="d"
-        app:layout_constraintBottom_toBottomOf="@+id/button7"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button7"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:onClick="playb"
-        android:text="b"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
+        android:id="@+id/c"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="54dp"
+        android:backgroundTint="@color/white"
         android:onClick="playc"
-        android:text="c"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        android:shadowColor="@color/black"
+        android:text="   C"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/d"
+        app:layout_constraintEnd_toStartOf="@+id/ds"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:onClick="playe"
-        android:text="e"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="536dp"
-        android:onClick="playf"
-        android:text="f"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/d"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="@color/white"
+        android:onClick="playd"
+        android:shadowColor="@color/black"
+        android:text="   D"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/e"
+        app:layout_constraintStart_toStartOf="@+id/c"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="77dp"
+        android:id="@+id/e"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="365dp"
+        android:backgroundTint="@color/white"
+        android:onClick="playe"
+        android:text="   E"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fs"
+        app:layout_constraintStart_toEndOf="@+id/cs" />
+
+    <Button
+        android:id="@+id/f"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="@color/white"
+        android:onClick="playf"
+        android:text="   F"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/e"
+        app:layout_constraintEnd_toEndOf="@+id/g"
+        app:layout_constraintStart_toStartOf="@+id/e" />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="@color/white"
         android:onClick="playg"
-        android:text="g"
-        app:layout_constraintStart_toStartOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        android:text="   G"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/f"
+        app:layout_constraintEnd_toEndOf="@+id/a"
+        app:layout_constraintStart_toEndOf="@+id/e" />
 
-    <!-- <Button-->
-<!--    android:id="@+id/c"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="63dp"-->
-<!--    android:text="   C"-->
-<!--    android:textSize="30sp"-->
-<!--    android:textStyle="bold"-->
-<!--    android:textAlignment="textStart"-->
-<!--    android:backgroundTint="@color/white"-->
-<!--    app:layout_constraintEnd_toEndOf="parent"-->
-<!--    app:layout_constraintTop_toTopOf="parent"-->
-<!--    android:onClick="playC" />-->
+    <Button
+        android:id="@+id/a"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/white"
+        android:onClick="playa"
+        android:text="   A"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/g"
+        app:layout_constraintEnd_toEndOf="@+id/as"
+        app:layout_constraintStart_toStartOf="@+id/gs" />
 
-<!--    <Button-->
-<!--        android:id="@+id/d"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="63dp"-->
-<!--        android:text="   D"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/c"-->
-<!--        android:onClick="playD"/>-->
+    <Button
+        android:id="@+id/b"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/white"
+        android:onClick="playb"
+        android:shadowColor="@color/black"
+        android:text="   B"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/as" />
 
-<!--    <Button-->
-<!--        android:id="@+id/e"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="63dp"-->
-<!--        android:text="   E"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/d"-->
-<!--        android:onClick="playE"/>-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/cs"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/ds"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/cs"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
 
-<!--    <Button-->
-<!--        android:id="@+id/f"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="63dp"-->
-<!--        android:text="   F"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/e"-->
-<!--        android:onClick="playF"/>-->
+    <Button
+        android:id="@+id/cs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="@color/black"
+        android:onClick="playcs"
+        android:text="   C#"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ds"
+        app:layout_constraintEnd_toStartOf="@+id/e"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ds" />
 
-<!--    <Button-->
-<!--        android:id="@+id/g"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="63dp"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:text="   G"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textAlignment="textStart"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/f"-->
-<!--        android:onClick="playG"/>-->
+    <Button
+        android:id="@+id/ds"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/black"
+        android:onClick="playds"
+        android:text="   D#"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/fs"
+        app:layout_constraintEnd_toStartOf="@+id/e"
+        app:layout_constraintStart_toEndOf="@+id/c"
+        app:layout_constraintTop_toTopOf="@+id/fs" />
 
-<!--    <Button-->
-<!--        android:id="@+id/a"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="63dp"-->
-<!--        android:text="   A"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/g"-->
-<!--        android:onClick="playA"/>-->
+    <Button
+        android:id="@+id/fs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="29dp"
+        android:backgroundTint="@color/black"
+        android:onClick="playfs"
+        android:text="   F#"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/gs"
+        app:layout_constraintEnd_toStartOf="@+id/gs"
+        app:layout_constraintStart_toEndOf="@+id/e"
+        app:layout_constraintTop_toTopOf="@+id/gs" />
 
-<!--    <Button-->
-<!--        android:id="@+id/b"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="63dp"-->
-<!--        android:text="   B"-->
-<!--        android:textSize="30sp"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:textStyle="bold"-->
-<!--        android:shadowColor="@color/black"-->
-<!--        android:textAlignment="textStart"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/a"-->
-<!--        android:onClick="playB"/>-->
+    <Button
+        android:id="@+id/gs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:backgroundTint="@color/black"
+        android:onClick="playgs"
+        android:text="   G#"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/as"
+        app:layout_constraintEnd_toStartOf="@+id/as"
+        app:layout_constraintStart_toEndOf="@+id/fs"
+        app:layout_constraintTop_toTopOf="@+id/as" />
 
-<!--    <Button-->
-<!--        android:id="@+id/cs"-->
-<!--        android:layout_width="187dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="40sp"-->
-<!--        android:text="   C#"-->
-<!--        android:backgroundTint="@color/black"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textColor="#ffffff"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        android:onClick="playCS"/>-->
-
-<!--    <Button-->
-<!--        android:id="@+id/ds"-->
-<!--        android:layout_width="187dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="16dp"-->
-<!--        android:text="   D#"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:backgroundTint="@color/black"-->
-<!--        android:textColor="#ffffff"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/cs"-->
-<!--        android:onClick="playDS"/>-->
-
-<!--    <Button-->
-<!--        android:id="@+id/fs"-->
-<!--        android:layout_width="187dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="80dp"-->
-<!--        android:text="   F#"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:backgroundTint="@color/black"-->
-<!--        android:textColor="#ffffff"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/ds"-->
-<!--        android:onClick="playFS"/>-->
-
-<!--    <Button-->
-<!--        android:id="@+id/gs"-->
-<!--        android:layout_width="187dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="12dp"-->
-<!--        android:text="   G#"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:backgroundTint="@color/black"-->
-<!--        android:textColor="#ffffff"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/fs"-->
-<!--        android:onClick="playGS"/>-->
-
-<!--    <Button-->
-<!--        android:id="@+id/as"-->
-<!--        android:layout_width="187dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:text="   A#"-->
-<!--        android:textAlignment="textStart"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:backgroundTint="@color/black"-->
-<!--        android:textColor="#ffffff"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/gs"-->
-<!--        android:onClick="playAS"/>-->
+    <Button
+        android:id="@+id/as"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:onClick="playas"
+        android:text="   A#"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/b"
+        app:layout_constraintStart_toEndOf="@+id/gs"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,7 +41,7 @@ public class Playpiano extends AppCompatActivity {
         }
         player.start();
     }
-    public void playab(View view) {
+    public void playgs(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.ab4);
         }
@@ -53,7 +53,7 @@ public class Playpiano extends AppCompatActivity {
         }
         player.start();
     }
-    public void playbb(View view) {
+    public void playas(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.bb4);
         }
@@ -65,13 +65,14 @@ public class Playpiano extends AppCompatActivity {
         }
         player.start();
     }
+
     public void playd(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.d4);
         }
         player.start();
     }
-    public void playdb(View view) {
+    public void playcs(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.db4);
         }
@@ -83,7 +84,7 @@ public class Playpiano extends AppCompatActivity {
         }
         player.start();
     }
-    public void playeb(View view) {
+    public void playds(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.eb4);
         }
@@ -101,7 +102,7 @@ public class Playpiano extends AppCompatActivity {
         }
         player.start();
     }
-    public void playgb(View view) {
+    public void playfs(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.gb4);
         }
